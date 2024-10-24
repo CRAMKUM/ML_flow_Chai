@@ -1,6 +1,7 @@
 name: wine_quality
 
-conda_env:conda.yml
+conda_env: conda.yml
 
 entry_points:
-  main: 'python train.py'
+  main:
+    command: 'python train.py'
