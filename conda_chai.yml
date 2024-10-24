@@ -1,7 +1,7 @@
 name: wine_quality
 
 channels:
-  -defaults
+  - defaults
 
 dependencies:
 - python=3.10.13
