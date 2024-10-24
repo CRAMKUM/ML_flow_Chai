@@ -3,4 +3,4 @@ name: wine_quality
 conda_env:conda.yml
 
 entry_points:
-  main: 'python train_chai.py'
+  main: 'python train.py'
